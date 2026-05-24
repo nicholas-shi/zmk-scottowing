@@ -3,7 +3,6 @@
 / {
     chosen {
         zmk,kscan = &kscan;
-        zmk,matrix_transform = &transform;
         zmk,physical-layout = &phy_layout;
     };
 
