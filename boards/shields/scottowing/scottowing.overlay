@@ -4,6 +4,7 @@
     chosen {
         zmk,kscan = &kscan;
         zmk,matrix_transform = &transform;
+        zmk,physical-layout = &phy_layout;
     };
 
     kscan: kscan {
@@ -42,4 +43,8 @@
                                            RC(4, 3) RC(4, 4) RC(4, 5) RC(4, 6) RC(4, 7) RC(4, 8)
         >;
     };
+
+    phy_layout: phy_layout {
+        transform = <&transform>;
+    }
 };
