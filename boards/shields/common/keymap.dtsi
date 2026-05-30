@@ -128,13 +128,13 @@
             layer_1 {
                 display-name = "Layer 1";
                 // -----------------------------------------------------------------------------------------
-                // |  TAB |  !  |  @  |  #  |  $   |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
-                // |      |     |     |     |      |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-                // | LW2  |     |     |     |      |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-                //                    |     |      |     |   |     |     |     |
+                // | F1/TAB  |  !  |  @  |  #  |  $   |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+                // | F2/CTRL | F3  | F4  | F5  | F6   | F7  |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+                // | LW2     | F8  | F9  | F10 | F11  | F12 |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+                //                       |     |      |     |   |     |     |     |
                 bindings = <
-                    &mt F1 trans &kp EXCL &kp AT &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-                    &mt F1 trans &kp F3   &kp F4 &kp F5    &kp F6    &kp F7        &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
+                    &mt F1 TAB   &kp EXCL &kp AT &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
+                    &mt F1 LCTRL &kp F3   &kp F4 &kp F5    &kp F6    &kp F7        &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
                     &mo 3        &kp F8   &kp F9 &kp F10   &kp F11   &kp F12       &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                                                  &trans    &trans    &trans        &trans    &trans    &trans
                 >;
@@ -143,9 +143,9 @@
             layer_2 {
                 display-name = "Layer 2";
                 // -----------------------------------------------------------------------------------------
-                // |     |       |     |     |     |     |   |           |     |     |     |       |             |
-                // |     | BTCLR | BT0 | BT1 | BT2 | BT3 |   |           |     |     |     |       | studo unlck |
-                // |     |       |     |     |     |     |   | mac_emoji |     |     |     | reset | booloader   |
+                // | TAB  |       |     |     |     |     |   |           |     |     |     |       |             |
+                // | CTRL | BTCLR | BT0 | BT1 | BT2 | BT3 |   |           |     |     |     |       | studo unlck |
+                // |      |       |     |     |     |     |   | mac_emoji |     |     |     | reset | booloader   |
                 //                     |     |     |     |   |           |     |     |
                 bindings = <
                     &trans &trans     &trans       &trans       &trans       &trans             &trans     &trans &trans &trans &trans        &trans     
