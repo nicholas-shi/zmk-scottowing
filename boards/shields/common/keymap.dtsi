@@ -118,10 +118,10 @@
                 // |     | V_m |  V- |  V+ | RWD | FWD  |   |     |     |     |     |     |     |
                 //                   |     |     |      |   |     | LW2 |     |
                 bindings = <
-                    &kp trans  &kp N1      &kp N2       &kp N3       &kp N4    &kp N5           &kp N6    &kp N7    &kp N8    &kp N9    &kp N0     &kp trans
-                    &kp trans  &kp LEFT    &kp DOWN     &kp UP       &kp RIGHT &kp K_PP         &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp trans  &kp trans
-                    &kp trans  &kp C_MUTE  &kp C_VOL_DN &kp C_VOL_UP &kp C_RW  &kp C_FF         &kp trans &kp trans &kp trans &kp trans &kp trans  &kp trans
-                                                        &kp trans    &kp trans &kp trans        &mo 3     &kp trans &kp trans
+                    &trans &kp N1      &kp N2       &kp N3       &kp N4    &kp N5       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &trans     
+                    &trans &kp LEFT    &kp DOWN     &kp UP       &kp RIGHT &kp K_PP     &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans     
+                    &trans &kp C_MUTE  &kp C_VOL_DN &kp C_VOL_UP &kp C_RW  &kp C_FF     &trans   &trans   &trans &trans    &trans &trans     
+                                                    &trans       &trans    &trans       &mo 3    &trans   &trans
                 >; 
             };
 
@@ -136,7 +136,7 @@
                     &mt F1 trans &kp EXCL &kp AT &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
                     &mt F1 trans &kp F3   &kp F4 &kp F5    &kp F6    &kp F7        &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
                     &mo 3        &kp F8   &kp F9 &kp F10   &kp F11   &kp F12       &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
-                                                 &kp trans &kp trans &kp trans     &kp trans &kp trans &kp trans
+                                                 &trans    &trans    &trans        &trans    &trans    &trans
                 >;
             };
 
@@ -148,10 +148,10 @@
                 // |     |       |     |     |     |     |   | mac_emoji |     |     |     | reset | booloader   |
                 //                     |     |     |     |   |           |     |     |
                 bindings = <
-                    &kp trans  &kp trans  &kp trans    &kp trans    &kp trans    &kp trans          &kp trans  &kp trans &kp trans &kp trans &kp trans     &kp trans
-                    &kp trans  &kp BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3       &kp trans  &kp trans &kp trans &kp trans &kp trans     &studio_unlock
-                    &kp trans  &kp trans  &kp trans    &kp trans    &kp trans    &kp trans          &mac_emoji &kp trans &kp trans &kp trans &kp sys_reset &bootloader
-                                                       &kp trans    &kp trans    &kp trans          &kp trans  &kp trans &kp trans
+                    &trans &trans     &trans       &trans       &trans       &trans             &trans     &trans &trans &trans &trans        &trans     
+                    &trans &kp BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3       &trans     &trans &trans &trans &trans        &studio_unlock
+                    &trans &trans     &trans       &trans       &trans       &trans             &mac_emoji &trans &trans &trans &kp sys_reset &bootloader
+                                                   &trans       &trans       &trans             &trans     &trans &trans
                 >;
             };
 
