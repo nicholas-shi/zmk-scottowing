@@ -11,6 +11,10 @@
 #define WINDOWS_NUMBER 6
 #define WINDOWS_FUNCTION 7
 
+&sk {
+    quick-release;
+};
+
 / {
     macros {
         spotlight: spotlight {
@@ -90,10 +94,6 @@
             tapping-term-ms = <200>;
             bindings = <&sm ESC LALT>, <&kp LGUI>, <&windows_emoji>;
         };
-    };
-
-    &sk {
-        quick-release;
     };
 
     keymap {
